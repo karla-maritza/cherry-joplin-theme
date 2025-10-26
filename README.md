@@ -44,7 +44,7 @@ Copy the userchrome.css and userstyle.css from this repo and go to Tools ➡️ 
 # Thanks
 I’d like to thank the creators and contributors behind the Joplin themes that shape my UI:
 
-- gonzalosilva – [Joplin Dark Theme](github.com/gonzalovsilva/joplin-dark-theme/tree/main)
-- [Catppuccin](github.com/catppuccin/joplin) Joplin contributors for their code and design work
-- amandamcg – [Joplin New Theme Sandbox](github.com/amandamcg/joplin-new-theme-sandbox)
-- hrqmonteiro – [Joplin Theme](github.com/hrqmonteiro/joplin-theme)
+- gonzalosilva – [Joplin Dark Theme](https://github.com/gonzalovsilva/joplin-dark-theme/tree/main)
+- [Catppuccin](https://github.com/catppuccin/joplin) Joplin contributors for their code and design work
+- amandamcg – [Joplin New Theme Sandbox](https://github.com/amandamcg/joplin-new-theme-sandbox)
+- hrqmonteiro – [Joplin Theme](https://github.com/hrqmonteiro/joplin-theme)
