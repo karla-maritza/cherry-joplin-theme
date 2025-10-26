@@ -38,6 +38,7 @@ Copy the userchrome.css and userstyle.css from this repo and go to Tools ➡️ 
 <img width="400" height="1008" alt="image" src="https://github.com/user-attachments/assets/beba702b-c211-4b0e-89d6-4c4fe80da409" /> <img width="400" height="1008" alt="image" src="https://github.com/user-attachments/assets/8a75c1d9-6ef1-4475-85f8-acfe1daad807" />
   
 <img width="250" alt="Sidebar demo" src="https://github.com/karla-maritza/cherry-joplin-theme/blob/2c8e82b3ac7eef6541410574d6fbf310b2cd2943/2025-10-26%2012%2017%2046.gif" />
+
 </div>
 
 # Thanks
