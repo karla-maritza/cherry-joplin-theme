@@ -1,0 +1,275 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+:root {
+/****** Color palette and specifications ******/
+    --cherry : #45151B;	
+    --bean: #390000;
+    --beantwo: 57, 0, 0;
+    --brchoco: #61252C;
+    --gold: #EACA8D;
+    --royal: #F99257;
+    --cerulean: #A2C5DC;
+    --matcha: #B3D194;
+    --gelato: #EAA3A3;
+    --curry:  #D39A18;
+    --masala: #9D5353;
+    --honey: #ECBD36;
+    --falu: #851E1E;
+    
+    --font-size: 13px;
+    --opacity-0-5: 0.5;
+    
+    --regular: 400;
+    --hover-bold: 800;
+}
+
+/* Font Information */
+html, body {
+    font-size: var(--font-size) !important;
+}
+
+::placeholder {
+  color: none !important;
+}
+
+/* General Panel */
+.resizableLayoutItem > div {
+  background-color: var(--cherry) !important;
+}
+
+/****** Notebook Sidebar & Sync ******/
+.sidebar {
+  background-color: var(--cherry) !important;
+}
+  
+.sc-gEvEer.sc-imWYAI.jiwcuV.cYtxFg.sc-jXbUNg.sc-feUZmu.gQOnAi > button {
+  background-color: var(--cherry) !important;
+}
+
+.list-item-container,
+.list-item {
+  background-color: var(--cherry) !important;
+}
+
+.list-item-container *:hover .checkbox,
+.list-item-container *:hover,
+.list-item-container *:focus,
+.list-item-container *:active {
+    background-color: var(--cherry) !important;
+    color: var(--gold) !important;
+    font-weight: var(--hover-bold) !important;
+}
+
+.list-item-container.selected,
+.list-item-container.selected *,
+.list-item-container.selected .checkbox {
+    background-color: none !important;
+    color: var(--gold) !important;
+    font-weight: var(--hover-bold);
+}
+
+/******* Note List, Buttons and Search *******/
+.rli-noteList div {
+  border: none !important;
+}
+
+.note-list {
+  background-color: var(--cherry) !important;
+  border: none !important;
+}
+
+div.sc-kOHTFB.cAxSyf {
+    background-color: var(--cherry) !important;
+}
+
+.new-todo-button,
+.new-note-button ,
+.sort-order-field-button ,
+.sort-order-reverse-button {
+    background: var(--bean) !important;
+    color: var(--gold) !important;
+}
+
+.new-todo-button span,
+.new-note-button span,
+.sort-order-field-button span,
+.sort-order-reverse-button span {
+    color: white !important;
+}
+
+.search-and-sort,
+.search-bar
+.search-bar focus
+.search-bar input {
+    background-color: var(--bean) !important;
+}
+
+.icon-search {
+    color: white !important;
+}
+
+.input.search-and-sort {
+    background-color: var(--bean) !important;
+}
+
+.fa-times {
+    background-color: var(--bean) !important;
+    color: white !important;
+}
+
+.item-list.note-list {
+  background-color: none !important;
+}
+
+.item-list.note-list .list-item-container::before {
+  border: 0;
+}
+
+.notes .note-list-item *:hover .checkbox,
+.notes .note-list-item *:hover,
+.notes .note-list-item *:focus,
+.notes .note-list-item *:active {
+    background-color: var(--cherry) !important;
+    color: var(--gold) !important;
+    font-weight: var(--hover-bold) !important;
+}
+
+.notes .note-list-item .-selected,
+.notes .note-list-item .-selected *,
+.notes .note-list-item .-selected .checkbox {
+    background-color: var(--cherry) !important;
+    color: var(--gold) !important;
+    font-weight: var(--hover-bold);
+}
+    
+/*Note search bar*/
+.note-search-bar input {
+  border: 0 !important;
+  padding: 5px;
+  background-color: var(--bean) !important;
+}    
+
+/****** Note Title, Toolbar and Codemirror (Note Editor) ******/
+input.title-input {
+    padding-top: 5px;
+    background-color: var(--cherry) !important;
+}
+.editor-toolbar {
+    background-color: var(--cherry) !important;
+}
+
+.editor-toolbar .button.toolbar-button:hover {
+    background-color: var(--brchoco) !important;
+}
+
+.editor-toolbar .button.toolbar-button:hover {
+    opacity: var(--opacity-0-5);
+    background-color: var(--brchoco) !important;
+}
+
+.resizableLayoutItem.rli-editor {
+    background-color: var(--cherry);
+}
+
+.note-editor-wrapper {
+    background-color: var(--cherry) !important;
+}
+
+.editor .cm-gutters {
+    background-color: var(--cherry) !important;
+}
+
+.editor .cm-line {
+    background-color: none;
+}
+
+.editor .cm-editor .cm-scroller {
+    background-color: var(--cherry) !important;
+}
+
+.editor .cm-line.cm-activeLine,
+.editor .cm-activeLineGutter    {
+     background-color: rgba(var(--beantwo), 0.50);
+}
+
+.cm-editor .cm-selectionBackground,
+.cm-editor.cm-focused .cm-selectionBackground {
+    background-color: var(--masala) !important;
+}
+
+.cm-editor ::selection,
+.cm-editor ::-moz-selection {
+    background-color: var(--masala) !important;
+}
+
+.cm-panels.cm-panels-bottom  > div {
+    background-color: var(--cherry) !important;
+}
+
+/****** Markdown Items ******/
+
+.editor .cm-h1 {
+    color: var(--royal);
+}
+
+.editor .cm-h2 {
+    color: var(--cerulean);
+}
+
+.editor .cm-h3 {
+    color: var(--matcha);
+}
+
+.editor .cm-h4 {
+    color: var(--gelato);
+}
+
+.editor .cm-h5 {
+    color: var(--curry);
+}
+
+.editor .tok-strong,
+.editor .tok-emphasis {
+    color: var(--gold) !important;
+}
+
+.editor .tok-link{
+    color: var(--honey);
+}
+
+.editor .tok-url {
+    color: var(--honey);
+}
+
+/****** Plugin: Table colorize - included because I use it ******/
+.cm-tabcolor-row {
+	color: var(--joplin-color) !important;
+}
+.cm-tabcolor-header {
+	font-weight: bolder;
+	color: var(--joplin-color) !important;
+}
+.cm-tabcolor-col1, .cm-tabcolor-col7 {
+	background-color: transparent !important;
+	color: #007bff !important;
+}
+.cm-tabcolor-col2, .cm-tabcolor-col8 {
+	background-color: transparent !important;
+	color: #6c757d !important; 
+}
+.cm-tabcolor-col3, .cm-tabcolor-col9 {
+	background-color: transparent !important;
+	color: #28a745 !important;
+}
+.cm-tabcolor-col4, .cm-tabcolor-col10 {
+	background-color: transparent !important;
+	color: #dc3545 !important;
+}
+.cm-tabcolor-col5, .cm-tabcolor-col11 {
+	background-color: transparent !important;
+	color: #ffc107 !important;
+}
+.cm-tabcolor-col6, .cm-tabcolor-col12 {
+	background-color: transparent !important;
+	color: #17a2b8 !important;
+}
