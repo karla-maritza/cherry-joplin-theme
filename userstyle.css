@@ -1,0 +1,104 @@
+/* For styling the rendered Markdown */
+
+:root {
+/****** Color palette and specifications ******/
+    --cherry : #45151B;	
+    --bean: #390000;
+    --brchoco: #61252C;
+    --gold: #EACA8D;
+    --royal: #F99257;
+    --cerulean: #A2C5DC;
+    --matcha: #B3D194;
+    --gelato: #EAA3A3;
+    --curry:  #D39A18;
+    --masala: #9D5353;
+    --honey: #ECBD36;
+    --falu: #851E1E;
+    
+    --font-size: 13px;
+    --icon-size: 16px;
+    --opacity-0-8: 0.5;
+    
+    --regular: 400;
+    --hover-bold: 800
+}
+
+/* Font configuration */
+#rendered-md, body, th, td {
+  background-color: var(--cherry) !important;
+}
+
+::selection {
+    background-color: var(--masala) !important;
+}
+
+em  {
+  color: var(--gold) !important;
+}
+
+strong {
+  color: var(--gold) !important;
+}
+
+/* Note Link Color */
+a[data-resource-id] {
+    color: var(--honey) !important;
+}
+
+.resource-icon {
+    background: var(--honey) !important;
+    transform: scale(0.9);
+}
+
+/***** Tables *****/
+body {
+    line-height: 1.2em !important;
+    font-size: 0.9rem;
+    color: white !important;
+}
+
+li { margin-bottom: .2em }
+
+th {
+    font-weight: var(--hover-bold) !important;
+    background: var(--brchoco) !important;
+    color: white !important;
+}
+
+th,
+td {
+    border: 1px solid white !important;
+}
+
+/*Headers*/
+h1 {color: var(--royal)}
+h2 {color: var(--cerulean)}
+h3 {color: var(--matcha)}
+h4 {color: var(--gelato)}
+h5 {color: var(--curry)}
+
+/*** Code Block ***/
+.code,
+code,
+pre.hljs {
+    font-family: "JetBrains Mono" !important;
+    background-color: var(--bean) !important;
+    border: 2px var(--gold) !important;
+    break-inside: avoid
+    padding: .3em .4em .2em .4em !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--honey) !important;
+}
+
+a:hover {
+    border-bottom: 1.5px solid  var(--honey) !important;
+}
+
+hr,
+.footnotes-sep {
+    border: 0;
+    border-bottom: 1px solid var(--falu) !important;
+}
